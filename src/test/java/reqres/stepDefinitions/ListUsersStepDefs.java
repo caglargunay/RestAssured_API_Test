@@ -40,7 +40,7 @@ public class ListUsersStepDefs extends BaseStepDefs {
 
     @Then("status code should be {int}")
     public void status_code_should_be(Integer statusCodeValue) {
-        response.then().statusCode(statusCodeValue);
+               response.then().statusCode(statusCodeValue);
     }
 
     @Then("{string} url should be working")
@@ -73,6 +73,7 @@ public class ListUsersStepDefs extends BaseStepDefs {
     public void verify_the_value_of_element_from_response_is(String key, String value) {
         response.then().body(key, is(value));
     }
+
 
 
     @Then("print each element of {string} array from response")

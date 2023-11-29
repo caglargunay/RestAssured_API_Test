@@ -20,7 +20,7 @@ Feature: List User Functionality
   Scenario: Verify that host is "reqres.in" for first/second page
     Then request headers "Host" should be "reqres.in"
 
-  @wip
+
   Scenario:Verify that connection is "keep-alive" for first/second page
     When I use get method
     Then status code should be 200

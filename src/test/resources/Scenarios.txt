@@ -55,7 +55,7 @@ SINGLE USER
 2.3  Scenario Outline: Check if the avatars is accessible for each user
 
 
-2.4  Scenario Outline: Access the single user page with invalid ids and verify that status code 404
+2.4  Scenario Outline:
 
 
 4.0-->list_resources.feature
